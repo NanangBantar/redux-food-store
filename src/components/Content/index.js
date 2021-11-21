@@ -5,7 +5,7 @@ import Checkout from "../Checkout";
 
 const Content = () => {
     return (
-        <div className="">
+        <div className="mb-auto">
             <Switch>
                 <Route exact path="/" component={Shop}/>
                 <Route exact path="/Orders" component={Orders}/>
